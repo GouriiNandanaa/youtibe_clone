@@ -1,0 +1,201 @@
+<!-- 
+ flexbox is similar to css grid
+ but is more flexible
+ that means   
+
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        ">Div 1</div>
+      <div style="
+        background-color: lightpink;
+        ">Div 2</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style="
+        background-color: lightpink;
+        padding-bottom: 50px;
+        flex: 1;
+        ">Div 2 <br> Text</div>
+    </div>
+
+
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style="
+        background-color: lightpink;
+        padding-bottom: 50px;
+        flex: 1;
+        ">Div 2 <br> Text</div>
+      <div style="
+        background-color: lightblue;
+        flex: 2;
+        ">100px</div>
+    </div>
+
+ 
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey ;
+    margin-top: 50px;
+    justify-content: end;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style="
+        background-color: lightpink;
+        padding-bottom: 50px;
+        width: 100px;
+        ">100px<br> Text</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey ;
+    margin-top: 50px;
+    justify-content: space-between;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style="
+        background-color: lightpink;
+        padding-bottom: 50px;
+        width: 100px;
+        ">100px<br> Text</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+<!-- Aligning elements vertically in a flexbox
+  -->
+    <div style="
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey ;
+    margin-top: 50px;
+    justify-content: end;
+    align-items: start;
+    /* also end center */
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style="
+        background-color: lightpink;
+        padding-bottom: 50px;
+        width: 100px;
+        ">100px<br> Text</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+  </body>
+  </html>
+
+   
+
+  <!--     
+  flexbox needs a container and we can use a div as a container
+
+  2 steps to create a flexbox
+    display type set as flex
+    flex-direction to row --- this is to allign the elements horizontally 
+
+
+  in the flex box the div behaves like an inline block element
+
+  it we increase the text in the div of flexbox it will adjust itself with the size of the text
+
+  if we make the second one taller then it will automatically aligned
+
+  similarities and differences of flex and grid
+
+
+
+  flex 1 causes the div to take the rest of the full space available
+  its similar to the 1fr in the grid
+
+
+  flex 2 is similar to the 2fr in grid
+  that means the ratio will be 1:2
+
+
+  diff:
+  layout is more rigid for grid
+  first we have to define the column
+  the num and the length and all
+  they are not then changeable
+
+
+  if we change the order of the elements in the flexbox it will change the width and all
+
+  initially dont fix the size
+
+
+
+  flexbox vs grid
+  ------------------
+  which one to use?
+  in youtube top there are 4 icons
+  and when logged out its only 3 
+  its a perfect place to use the flexbox
+
+
+
+  justify-content: end;
+  this is used for the alignment
+  normally the divs in flexbox are aligned in the left side (its start)
+  aligned in the right side is end
+  center alignment is also there
+
+
+
+
+  -->
