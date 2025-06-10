@@ -1,0 +1,37 @@
+Nested layouts are the important topic in a website
+here there are 2 types of layouts mainly
+They are:
+  verical layouts
+  horizontal layouts
+
+
+with these 2 layouts we can do anything
+for this youtube
+
+
+first take a screenshort of any thumbnail
+then crop it
+google drawings 
+upload the pic
+then shapes >rectangles
+
+draw a rectangles then change the thickness and the color
+
+vertical is not cutting vertically, its horizontal splitting and arranging something vertically
+
+divide that as much as you could using different color for horizontal and vertical 
+
+
+in this fig , there are actually 2 horizontal layouts
+so make that contents separately to div
+
+
+
+a MUCH Better way to create the horizontal and verical grids is that to use the grid layout technique 
+
+for putting elements in a horizontal alignment side by side , we will use display property to inline block and will specify the width
+
+the problem with the inline block element is some alignment issues
+
+
+css grids can be used for creating perfect horizontal layouts 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grids</title>
+</head>
+<body>
+  <div style="
+      display: grid;
+      grid-template-columns: 100px 200px;
+    ">
+    <div style="background-color: lightblue">Div 1</div>
+    <div style="background-color: lightpink">Div 2</div>
+  </div>
+
+  <br><br>
+
+
+
+  <div style="
+      display: grid;
+      grid-template-columns: 100px 200px 200px;
+    ">
+    <div style="background-color: lightblue">Div 1</div>
+    <div style="background-color: lightpink">Div 2 <p>Text</p></div>
+    <div style="background-color: lightblue">Div 3 <p>Text</p></div>
+  </div>
+
+  <br><br>
+  <div style="
+      display: grid;
+      grid-template-columns: 100px 3fr;
+    ">
+    <div style="background-color: lightblue">Div 1</div>
+    <div style="background-color: lightpink">Div 2</div>
+    <div style="background-color: lightblue">Div 1</div>
+    <!-- <div style="background-color: lightpink">Div 2</div> -->
+  </div>
+
+  <br><br>
+  <div style="
+      display: grid;
+      grid-template-columns: 100px 1fr 1fr;
+    ">
+    <div style="background-color: lightblue">Div 1</div>
+    <div style="background-color: lightpink">Div 2</div>
+    <div style="background-color: lightblue">Div 3 1fr </div>
+    <!-- <div style="background-color: lightpink">Div 2</div> -->
+  </div>
+</body>
+</html>
+
+<!-- 
+
+grid is a layout that has rows and column
+exactly like normal grids
+ 2x2, 3x3 
+ 1x2 -> means 1 row and 2 column
+
+ to set the grid layout there are 2 steps 
+    set the display property as grid
+
+    step2
+    grid-template-columns: 100px 200px;
+    the first grid has width 100px 
+    next 200px 
+    and there will be a total of 2 columns
+    1 x 2 grid
+
+    no extra spaces in between
+
+    if there are more div that the initially specified number then that will get moved to the next row
+
+
+
+    1fr means the next column will take up all the remaining spaces
+
+    its the thing we need for the youtube design
+
+
+    1fr 1fr means split the thing equally to them both
+    1fr 2fr means the 2 times space than 1st one
+
+
+
+
+
+    in the youtube
+ -->
